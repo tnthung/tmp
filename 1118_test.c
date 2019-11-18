@@ -54,7 +54,7 @@ void q2() {
 }
 
 void q3() {
-  int tmp, wong=1, li=1;
+  int tmp, wong=0, li=0;
   
   while (tmp != 3) {
     scanf("%d", &tmp);
