@@ -59,11 +59,28 @@ void q3() {
   printf("王: %d\n李: %d", wong, li);
 }
 
+void q4() {
+  int x, y, z;
+  scanf("%d%d%d", &x, &y, &z);
+  
+  int h=x, l=y;
+  if (h < l) {
+    h = y;
+    l = x;
+  }
+  
+  int i;
+  for (i=l; i<=h; i++) {
+    if (!(i%z)) printf("%d\n", i);
+  }
+}
+
 int main() {
 
   //q1();
   //q2();
   //q3();
+  //q4();
   
   return 0;
 }
