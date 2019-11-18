@@ -89,12 +89,28 @@ void q5() {
   }
 }
 
+void q6() {
+  int num;
+  scanf("%d", &num);
+  
+  int i, j;
+  for (i=1; i<=num; i++) {
+    for (j=num; j>0; j--) {
+      if (i >= j) printf("%d", j);
+      else printf(" ");
+    }
+    printf("\n");
+  }
+}
+
 int main() {
 
   //q1();
   //q2();
   //q3();
   //q4();
+  //q5();
+  //q6();
   
   return 0;
 }
