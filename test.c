@@ -1,14 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 void q1() {
-  int odd, even;
+  int odd=0, even=0;
   
   int i;
   for (i=0; i<5; i++) {
     int tmp;
     scanf("%d", &tmp);
-    if (tmp%2) {
+    if (!(tmp%2)) {
       even += 1;
     }
     else {
@@ -24,19 +21,27 @@ void q2() {
   scanf("%d", &m);
   
   switch (m) {
-    case 1, 2, 3:
+    case 1:
+    case 2:
+    case 3:
       printf("Spring");
       break;
       
-    case 4, 5, 6:
+    case 4:
+    case 5:
+    case 6:
       printf("Summer");
       break;
       
-    case 7, 8, 9:
+    case 7:
+    case 8:
+    case 9:
       printf("Fall");
       break;
       
-    case 10, 11, 12:
+    case 10:
+    case 11:
+    case 12:
       printf("Winter");
       break;
       
@@ -100,18 +105,6 @@ void q6() {
       else printf(" ");
     }
     printf("\n");
-  }
-}
-
-void q7() {
-  int i=1;
-  while (1) {
-    if ((i%3 == 1) && (i%5 == 3) && (i%7 == 2)) {
-      printf("%d", i);
-      break;
-    }
-    
-    i++;
   }
 }
 
