@@ -45,10 +45,25 @@ void q2() {
   }
 }
 
+void q3() {
+  int tmp, wong, li;
+  
+  while (tmp != 3) {
+    scanf("%d", &tmp);
+    
+    if (tmp == 1) wong += 1;
+    else if (tmp == 2) li += 1;
+    else;
+  }
+  
+  printf("王: %d\n李: %d", wong, li);
+}
+
 int main() {
 
   //q1();
   //q2();
+  //q3();
   
   return 0;
 }
