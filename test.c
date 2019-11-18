@@ -84,11 +84,11 @@ void q4() {
 }
 
 void q5() {
-  int num, sum=0;
+  int num;
   
   for (num=1; num <= 1000; num++) {
     
-    int i;
+    int i, sum=0;
     for (i=1; i<num; i++) {
       if (!(num%i)) sum += i;
     }
@@ -108,6 +108,18 @@ void q6() {
       else printf(" ");
     }
     printf("\n");
+  }
+}
+
+void q7() {
+  int i=1;
+  while (1) {
+    if ((i%3 == 1) && (i%5 == 3) && (i%7 == 2)) {
+      printf("%d", i);
+      break;
+    }
+
+    i++;
   }
 }
 
