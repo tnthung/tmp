@@ -103,6 +103,18 @@ void q6() {
   }
 }
 
+void q7() {
+  int i=1;
+  while (1) {
+    if ((i%3 == 1) && (i%5 == 3) && (i%7 == 2)) {
+      printf("%d", i);
+      break;
+    }
+    
+    i++;
+  }
+}
+
 int main() {
 
   //q1();
@@ -111,6 +123,7 @@ int main() {
   //q4();
   //q5();
   //q6();
+  //q7();
   
   return 0;
 }
