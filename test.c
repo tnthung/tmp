@@ -54,7 +54,7 @@ void q2() {
 }
 
 void q3() {
-  int tmp, wong, li;
+  int tmp, wong=1, li=1;
   
   while (tmp != 3) {
     scanf("%d", &tmp);
@@ -84,7 +84,7 @@ void q4() {
 }
 
 void q5() {
-  int num, sum;
+  int num, sum=0;
   
   for (num=1; num <= 1000; num++) {
     
