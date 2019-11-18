@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 void q1() {
   int odd=0, even=0;
   
