@@ -75,6 +75,20 @@ void q4() {
   }
 }
 
+void q5() {
+  int num, sum;
+  
+  for (num=1; num <= 1000; num++) {
+    
+    int i;
+    for (i=1; i<num; i++) {
+      if (!(num%i)) sum += i;
+    }
+
+    if (sum == num) printf("%d\n", num);
+  }
+}
+
 int main() {
 
   //q1();
