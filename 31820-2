@@ -1,0 +1,20 @@
+#include <iostream>
+
+
+void main() {
+  int a, b, c;
+  int product = 1;
+  std::cin >> a >> b;
+  if (a > b) {
+    c = a;
+    a = b;
+    b = c;
+  }
+  
+  int i;
+  for (i=a; i<=b; i++) {
+    product *= i;
+  }
+  
+  std::cout << product << std::endl;
+}
