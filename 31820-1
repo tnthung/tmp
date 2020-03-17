@@ -1,0 +1,15 @@
+#include <iostream>
+
+
+void main() {
+  int terms = 0;
+  float sum = 1;
+  std::cin >> terms;
+  
+  int i;
+  for (i=3; i<(terms%2)?(terms):(terms-1); i+=2) {
+    sum += 1/i;
+  }
+  
+  std::cout << sum << std::endl;
+}
