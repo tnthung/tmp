@@ -5,7 +5,7 @@ int main() {
     float a;
     
     std::cin >> a;
-    std::cout << a << std::endl;
+    printf("%f\n", a);
 
     return 0;
 }
