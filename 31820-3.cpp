@@ -2,14 +2,10 @@
 
 
 int main() {
-    int a=0, b=0;
+    float a;
     
-    std::cin >> a >> b;
-    
-    std::cout << a << "+" << b << "=" << a+b << std::endl;
-    std::cout << a << "-" << b << "=" << a-b << std::endl;
-    std::cout << a << "*" << b << "=" << a*b << std::endl;
-    std::cout << a << "/" << b << "=" << a/b << "餘" << a%b << std::endl;
+    std::cin >> a;
+    std::cout << a;
 
     return 0;
 }
