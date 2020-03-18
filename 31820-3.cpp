@@ -13,6 +13,9 @@ int main() {
         
             if (i==0 || i==a-1 || j=0 || j=b-1)
                 std::cout << "@";
+                
+            else
+                std::cout << " ";
         
         }
         
