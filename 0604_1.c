@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <iostream.h>
 
 
 struct time{
@@ -7,7 +6,7 @@ struct time{
 };
 
 void f1(struct time t){
-  printf("%2d:%2d:%2d\n", t.h, t.m, t.s);
+  std::cout << t.h << t.m << t.s << std::endl;
 }
 
 struct time f2(struct time t1, struct time t2){
@@ -43,23 +42,23 @@ struct time f2(struct time t1, struct time t2){
 int main(){
   struct time t1, t2;
 
-  printf("H: ");
-  scanf("%d", &t1.h);
+  std::cout << "H: ";
+  std::cin >> t1.h;
 
-  printf("M: ");
-  scanf("%d", &t1.m);
+  std::cout << "M: ";
+  std::cin >> t1.m;
 
-  printf("S: ");
-  scanf("%d", &t1.s);
+  std::cout << "S: ";
+  std::cin >> t1.s;
 
-  printf("H: ");
-  scanf("%d", &t2.h);
+  std::cout << "H: ";
+  std::cin >> t2.h;
 
-  printf("M: ");
-  scanf("%d", &t2.m);
+  std::cout << "M: ";
+  std::cin >> t2.m;
 
-  printf("S: ");
-  scanf("%d", &t2.s);
+  std::cout << "S: ";
+  std::cin >> t2.s;
   
   f1(t1);
   f1(t2);
