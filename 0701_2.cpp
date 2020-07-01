@@ -1,16 +1,17 @@
-#inlclude <iostream>
+#include <iostream>
 
 
 int main()
 {
-	int all, arr, tmp[100];
+	int all, arr;
 	
-	for (int i=0; i<100; i++)
+	std::cin >> all >> arr;
+	int tmp[all];
+	
+	for (int i=0; i<all; i++)
 	{
 		tmp[i] = 1;
 	}
-	
-	std::cin >> all >> arr;
 	
 	for (int i=0; i<arr; i++)
 	{	
