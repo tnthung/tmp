@@ -17,14 +17,16 @@ int main()
 	{	
 		int a;
 		std::cin >> a;
-		tmp[a] = 0;
+		tmp[a-1] = 0;
 	}
 	
 	for (int i=0; i<all; i++)
 	{
 		if (tmp[i])
 		{
-			std::cout << i+1;
+			std::cout << i+1 << " ";
 		}
 	}
+
+	system("pause");
 }
