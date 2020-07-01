@@ -13,14 +13,15 @@ int main()
 	std::cin >> all >> arr;
 	
 	for (int i=0; i<arr; i++)
-	{
-		tmp[i] = 0;
+	{	
+		int a;
+		std::cin >> a;
+		tmp[a] = 0;
 	}
 	
 	for (int i=0; i<all; i++)
 	{
-		int a;
-		if (a = tmp[i])
+		if (tmp[i])
 		{
 			std::cout << i+1;
 		}
