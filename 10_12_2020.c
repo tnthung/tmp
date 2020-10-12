@@ -1,14 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-int[3][3] Matadd(int[3][3] a, int[3][3]b) {
-    int[3][3] tmp;
-    
+int main() {
     int i, j;
-    for (i=0; i<3; i++) {
-        for (j=0; j<3; j++) {
-            tmp[i][j] = a[i][j] + b[i][j];
-        }
+    for (i=0; i<9; i++) {
+        int a, b, c;
+        
+        scanf("%d%d", &a, &b);
+        printf("%d ", a+b);
+        if (i%3==2)
+            printf("\n");
     }
 }
